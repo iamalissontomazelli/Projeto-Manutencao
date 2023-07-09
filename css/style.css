@@ -1,0 +1,125 @@
+/*Topo do site inicio*/
+.topo-do-site {
+  width: 100%;
+  height: 800px;
+  background: url(../img/banner.png) no-repeat center center;
+  background-size: cover;
+}
+
+.topo-do-site h1 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 300px;
+}
+
+.topo-do-site p {
+  font-family: "Lato", sans-serif;
+  color: #feec00;
+  margin-top: 5px;
+}
+.topo-do-site span {
+  color: #feec00;
+}
+/*Topo do site FIM */
+
+/*Custom botão inicio*/
+.botao {
+  border: none;
+  background: linear-gradient(#00c3fa, #111);
+  padding: 23px 23px 23px 23px;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
+  transition: 0.9s;
+}
+.botao:hover {
+  background: linear-gradient(#3c3c3c, #010101);
+}
+/*Custom botão FIM*/
+
+/*Custom section secao-1*/
+.secao-1 h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  color: #3a4a92;
+  font-weight: bold;
+  margin-top: 120px;
+}
+.secao-1 p {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.imagens-secao {
+  padding: 100px;
+}
+/*Custom section secao-2*/
+
+.secao-2 {
+  background: url(../img/eletricista.png) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.secao-2 h2 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  margin-top: 120px;
+}
+.secao-2 p {
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin-top: 30px;
+}
+.render {
+  width: 300px;
+  height: 350px;
+  margin-top: 50px;
+}
+/*Custom section secao-3 Cards*/
+.secao-3 h2 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.cor2 {
+  color: #dfcf00;
+}
+.secao-3 li {
+  margin-top: 40px;
+  background: linear-gradient(#00c3fa, #111);
+  padding: 20px 20px 30px 20px;
+  width: 300px;
+  height: 400px;
+  border-radius: 30px 10px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #feec00;
+  box-shadow: 0px 13px 21px 0px rgb(0 0 0/60%);
+  margin-bottom: 50px;
+}
+.secao-3 li h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.secao-3 li p {
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin-top: 15px;
+  text-align: left;
+}
