@@ -1,4 +1,7 @@
 /*Topo do site inicio*/
+html {
+  scroll-behavior: smooth;
+}
 .topo-do-site {
   width: 100%;
   height: 800px;
@@ -188,3 +191,185 @@
 }
 
 /*Inicio da seção 5*/
+/*Inicio da seção 6*/
+.secao-6 {
+  width: 100%;
+  height: 700px;
+
+  margin-top: 80px;
+}
+.secao-6 h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.secao-6 p {
+  font-family: "Lato", sans-serif;
+  font-weight: italic;
+  color: black;
+  text-transform: uppercase;
+}
+.cor3 {
+  color: #6a6a6a;
+}
+.secao-6 li {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.eletricista {
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 13px 21px 0px rgb(0 0 0/56%);
+}
+.secao-6 ul {
+  padding-top: 30px;
+}
+.fa-solid {
+  margin-right: 10px;
+  color: orange;
+}
+.cta2 .botao {
+  margin-top: 40px;
+}
+.eletrica {
+  margin-top: 130px;
+}
+.canais h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: blue;
+}
+.cta2 p {
+  text-transform: none;
+  font-size: 20px;
+}
+
+/*Inicio da seção 7*/
+.secao-7 {
+  background: url(../img/depoimento.jpg) no-repeat center center;
+  background-size: cover;
+  height: 1200px;
+  margin-top: 50px;
+}
+.secao-7 h2 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.depoimento li {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(42, 87, 235, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(42, 87, 235, 0.81);
+  height: 450px;
+  margin-top: 40px;
+  text-align: center;
+}
+.depoimento h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.depoimento p {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: whitesmoke;
+  margin-top: 5px;
+}
+.depoi {
+  border-radius: 500px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+  margin-top: 30px;
+}
+/*Fim de seção 7*/
+
+/*Inicio de seção 8*/
+.secao-8 {
+  width: 100%;
+  height: 700px;
+  background-color: #020524;
+  text-align: center;
+}
+.secao-8 h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+  font-size: 28px;
+}
+.secao-8 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 19px;
+  color: white;
+  margin-top: 5px;
+}
+.secao-8 .botao {
+  margin-top: 50px;
+}
+
+/*Inicio seção 9*/
+.secao-9 {
+  height: 350px;
+  background-color: #ffa500;
+}
+.profissional {
+  margin-top: -122px;
+}
+.secao-9 h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 90px;
+}
+.secao-9 p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+/*Fim da seção 9*/
+
+/*Footer*/
+.rodape {
+  height: 50px;
+  width: 100%;
+  background: black;
+}
+.rodape h2 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 18px;
+}
+.voltar {
+  position: absolute;
+  left: 80%;
+  margin-top: -80px;
+}
